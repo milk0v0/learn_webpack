@@ -1,4 +1,4 @@
-import './style/index.css';
+import './style/index.css'; // 用哪个 loader
 
 console.log('hello webpack4.x');
 
@@ -13,5 +13,7 @@ console.log('hello webpack4.x');
 
 // css 
 // less sass
-// loader
+// loader 模块解析器
 // webpack 默认支持js、json模块
+
+// webpack 官方建议，一个 loader 只做一件事情，小而美
