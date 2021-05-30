@@ -1,4 +1,5 @@
-import './style/index.css'; // 用哪个 loader
+import './style/index.less'; // 用哪个 loader less-loader 将 less 转换为 css
+import './style/main.css';
 
 console.log('hello webpack4.x');
 
